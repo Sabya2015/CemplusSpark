@@ -29,7 +29,7 @@ sbt package
    \ecp-log-test\src\main\resources -- log4j.xml
    
 6) Create a directory in filebrowser in Hue and put all the files mentioned above.</br>
-   Can be done by drag and drop from the approprite folders.</br>
+   Can be done by drag and drop from the appropriate folders.</br>
    For Ex:</br>
    /project/ecpdevreporting/TramsLogTest
    
