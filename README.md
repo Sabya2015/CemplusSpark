@@ -41,7 +41,7 @@ sbt package
    Use M account credentials to login and execute below cmd to get all the files.
    - hdfs dfs -get /project/ecpdevreporting/TramsLogTest
    
-8) From the downloaded folde execute the below command after changing to your respective login id and local path.</br>
+8) Execute the below command from terminal after changing the username and local path.</br>
 
    
 ```javascript    
