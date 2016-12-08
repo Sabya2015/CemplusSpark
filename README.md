@@ -11,9 +11,9 @@ https://thehub.thomsonreuters.com/docs/DOC-1678799
    http://www.scala-sbt.org/download.html
   
 2) Download and unzip ecp-log-test.zip</br>
-   Update val eventSourceUUIDValue = "4800a410-81f9-476e-9dd0-ce8fd71ccd2a" in LogTest.scala with your registered UUID and update MDC      values as per your needs.</br>
+   Update  eventSourceUUIDValue = "4800a410-81f9-476e-9dd0-ce8fd71ccd2a" in LogTest.scala with your registered UUID and update MDC        values as per your needs.</br>
 
-   ecp-log-test\src\main\scala\com\thomsonreuters\scalaTest\LogTest.scala
+   \TRLoggingSparkExample\src\main\scala\com\thomsonreuters\scalaTest\LogTest.scala
 
 3) Open command prompt and go to the folder path ecp-log-test</br>
    Run following commands </br>
@@ -22,11 +22,11 @@ sbt compile
 sbt package 
 ```
 4) After compilation and packaging tramslogtest-1.0.jar is generated</br>
-   \ecp-log-test\target\tramslogtest-1.0.jar
+   \TRLoggingSparkExample\target\tramslogtest-1.0.jar
    
 5) Copy tramslogtest-1.0.jar,log4j.xml and all the dependent jars from lib folder</br>
-   \ecp-log-test\lib --all</br>
-   \ecp-log-test\src\main\resources -- log4j.xml
+   \TRLoggingSparkExample\lib --all</br>
+   \TRLoggingSparkExample\src\main\resources -- log4j.xml
    
 6) Create a directory in filebrowser in Hue and put all the files mentioned above.</br>
    Drag and drop from the appropriate folders.</br>
