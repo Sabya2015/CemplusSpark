@@ -49,5 +49,5 @@ sbt package
    
 ``` 
 9) Check the index being created in preprod ELK</br>
-   http://trams-logstash-eag-preprod.int.thomsonreuters.com:9200/_plugin/kopf/#!/rest
+   http://trams-logstash-eag-preprod.int.thomsonreuters.com:9200/_plugin/kopf/#!cluster
 
