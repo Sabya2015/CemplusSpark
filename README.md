@@ -37,7 +37,7 @@ sbt package
    Will need to create an M account if already not existing.Please use the below link to do so.</br>
    https://bigdataportal.int.thomsonreuters.com/mgmtAccountCheck
    
-7) Using the edgenode name of the cluster you have access to it and where you have copied the files, login using putty.</br>
+7) Using the edgenode name of the cluster you have access to it, login using putty.</br>
    Use M account credentials to login and execute below cmd to get all the files.
    - hdfs dfs -get /project/ecpdevreporting/TramsLogTest
    
