@@ -15,7 +15,7 @@ https://thehub.thomsonreuters.com/docs/DOC-1678799
 
    \TRLoggingSparkExample\src\main\scala\com\thomsonreuters\scalaTest\LogTest.scala
 
-3) Open command prompt and go to the folder path ecp-log-test</br>
+3) Open command prompt and go to the folder path TRLoggingSparkExample</br>
    Run following commands </br>
 ```javascript 
 sbt compile
@@ -34,7 +34,7 @@ sbt package
    /project/ecpdevreporting/TramsLogTest
    
    To get access to TR managed clusters.</br>
-   Will need to create an M account if already not existing.Please use the below link to do so.</br>
+   Will need to create an M account if already not existing. Please use the below link to do so.</br>
    https://bigdataportal.int.thomsonreuters.com/mgmtAccountCheck
    
 7) Using the edgenode name of the cluster you have access to it, login using putty.</br>
