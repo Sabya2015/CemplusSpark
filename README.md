@@ -5,7 +5,7 @@
 For issue description,root cause analysis and solution please refer below link.</br>
 https://thehub.thomsonreuters.com/docs/DOC-1678799
 
-## Steps to execute the Spark-Job-TR-Logging application.
+## Steps to execute the [TRLoggingSparkExample](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/java-TR-Logging-Project-example/tree/master/TRLoggingSparkExample) application.
 
 1) Install sbt</br>
    http://www.scala-sbt.org/download.html
