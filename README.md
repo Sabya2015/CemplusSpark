@@ -2,7 +2,7 @@
 
 ### This document gives a brief about how to get SPARK application load custom TR logging log4j configuration file bundled within application's fat JAR.
 
-For issue description,root cause analysis and solution please refer below link.
+For issue description,root cause analysis and solution please refer below link.</br>
 https://thehub.thomsonreuters.com/docs/DOC-1678799
 
 ## Steps to execute the Spark-Job-TR-Logging application.
