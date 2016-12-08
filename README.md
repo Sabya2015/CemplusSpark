@@ -10,7 +10,7 @@ https://thehub.thomsonreuters.com/docs/DOC-1678799
 1) Install sbt</br>
    http://www.scala-sbt.org/download.html
   
-2) Download and unzip ecp-log-test.zip</br>
+2) Download and unzip TRLoggingSparkExample.zip</br>
    Update  eventSourceUUIDValue = "4800a410-81f9-476e-9dd0-ce8fd71ccd2a" in LogTest.scala with your registered UUID and update MDC        values as per your needs.</br>
 
    \TRLoggingSparkExample\src\main\scala\com\thomsonreuters\scalaTest\LogTest.scala
