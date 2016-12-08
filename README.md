@@ -10,10 +10,13 @@ https://thehub.thomsonreuters.com/docs/DOC-1678799
 1) Install sbt</br>
    http://www.scala-sbt.org/download.html
   
-2) Download and unzip ecp-log-test.zip
+2) Download and unzip ecp-log-test.zip</br>
+   Update val eventSourceUUIDValue = "4800a410-81f9-476e-9dd0-ce8fd71ccd2a" in LogTest.scala with your registered UUID and update MDC      values as per your needs.</br>
 
-3) Open command prompt and go to the folder path ecp-log-test
-   Run following commands 
+   ecp-log-test\src\main\scala\com\thomsonreuters\scalaTest\LogTest.scala
+
+3) Open command prompt and go to the folder path ecp-log-test</br>
+   Run following commands </br>
 ```javascript 
 sbt compile
 sbt package 
@@ -44,4 +47,6 @@ sbt package
    spark-submit --class com.thomsonreuters.scalaTest.TramsLogTest --files /hadoop/user/m6022631/TramsLogTest/log4j.xml --driver-java-options "-Dlog4j.configuration=log4j.xml" --driver-class-path /hadoop/user/m6022631/TramsLogTest/slf4j-api-1.7.6.jar,/hadoop/user/m6022631/TramsLogTest/javax.json-1.0.4.jar,/hadoop/user/m6022631/TramsLogTest/kafka-log4j-appender-0.9.0.0.jar,/hadoop/user/m6022631/TramsLogTest/kafka-clients-0.8.2.1.jar,/hadoop/user/m6022631/TramsLogTest/loglayout-34.1.6.jar,/hadoop/user/m6022631/TramsLogTest/KafkaMessagingUtil-32.3.9.jar,/hadoop/user/m6022631/TramsLogTest/ServiceRegistry-34.0.4.jar,/hadoop/user/m6022631/TramsLogTest/config-1.3.0.jar,/hadoop/user/m6022631/TramsLogTest/scala-logging-slf4j_2.11-2.1.1.jar,/hadoop/user/m6022631/TramsLogTest/scala-logging_2.11-3.1.0.jar,/hadoop/user/m6022631/TramsLogTest/json-20070829.jar --jars /hadoop/user/m6022631/TramsLogTest/slf4j-api-1.7.6.jar,/hadoop/user/m6022631/TramsLogTest/javax.json-1.0.4.jar,/hadoop/user/m6022631/TramsLogTest/kafka-log4j-appender-0.9.0.0.jar,/hadoop/user/m6022631/TramsLogTest/kafka-clients-0.8.2.1.jar,/hadoop/user/m6022631/TramsLogTest/loglayout-34.1.6.jar,/hadoop/user/m6022631/TramsLogTest/KafkaMessagingUtil-32.3.9.jar,/hadoop/user/m6022631/TramsLogTest/ServiceRegistry-34.0.4.jar,/hadoop/user/m6022631/TramsLogTest/config-1.3.0.jar,/hadoop/user/m6022631/TramsLogTest/scala-logging-slf4j_2.11-2.1.1.jar,/hadoop/user/m6022631/TramsLogTest/scala-logging_2.11-3.1.0.jar,/hadoop/user/m6022631/TramsLogTest/json-20070829.jar --num-executors 2 --driver-memory 8g --executor-memory 20g --master yarn --deploy-mode client --queue root.ecpdevcemreporting /hadoop/user/m6022631/TramsLogTest/tramslogtest-1.0.jar
    hdfs dfs -get /project/ecpdevreporting/TramsLogTest
 ``` 
-9) 
+9) Check the index being created in preprod ELK</br>
+   http://trams-logstash-eag-preprod.int.thomsonreuters.com:9200/_plugin/kopf/#!/rest
+
