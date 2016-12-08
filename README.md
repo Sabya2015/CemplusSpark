@@ -24,7 +24,7 @@ sbt package
 4) After compilation and packaging tramslogtest-1.0.jar is generated</br>
    \ecp-log-test\target\tramslogtest-1.0.jar
    
-5) Copy tramslogtest-1.0.jar,log4j.xml all the dependent jars from lib folder</br>
+5) Copy tramslogtest-1.0.jar,log4j.xml and all the dependent jars from lib folder</br>
    \ecp-log-test\lib --all</br>
    \ecp-log-test\src\main\resources -- log4j.xml
    
