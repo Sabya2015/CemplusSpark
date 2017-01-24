@@ -28,15 +28,14 @@ Turns alarming event json into an alarming episode:
 
 #### Include internal TR Enterprise Logging and third-party libraries in the application build 
 
-#### *For Dependencies (Gradle Format),Application Logging Configuration and SM Registry properties specified as VM argument*</br>
+#### For Dependencies (Gradle Format),Application Logging Configuration and SM Registry properties specified as VM argument</br>
 Refer this [link](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
-
 
 #### Example of the [resulting alarm](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
 
 
 
-Alarm correlation: For grouping alarms to episodes. 
+### Alarm correlation: For grouping alarms to episodes. 
 - Group related alarms together: alarming episodes
 - Alarm Correlation Signature:
 
@@ -88,9 +87,6 @@ Refer this [link](https://thehub.thomsonreuters.com/docs/DOC-851597#jive_content
 [CAM dashboard](https://compass.thomsonreuters.com/monitor/alarms/)</br>
 [CAM alarm from TRLogModel](https://thehub.thomsonreuters.com/docs/DOC-851597)</br>
 [Developers Guide](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/TR-Logging-Project/blob/master/TR_Logging_Tutorial.md) </br>
-
-##### [TR Logging-Compass Monitor Integration](https://thehub.thomsonreuters.com/docs/DOC-1850624) </br>
-
-
-##### [FAQs](https://thehub.thomsonreuters.com/docs/DOC-1079951) </br>
+[TR Logging-Compass Monitor Integration](https://thehub.thomsonreuters.com/docs/DOC-1850624) </br>
+[FAQs](https://thehub.thomsonreuters.com/docs/DOC-1079951) </br>
 
