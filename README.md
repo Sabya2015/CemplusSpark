@@ -28,10 +28,9 @@ Turns alarming event json into an alarming episode:
 
 #### Include internal TR Enterprise Logging and third-party libraries in the application build 
 
-#### For Dependencies (Gradle Format),Application Logging Configuration and SM Registry properties specified as VM argument</br>
-Refer this [link](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
+#### For Dependencies (Gradle Format),Application Logging Configuration and SM Registry properties specified as VM argument refer this [link](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
 
-#### Example of the [resulting alarm](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
+#### Example of the resulting alarm refer this [link](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
 
 
 
