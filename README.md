@@ -17,7 +17,7 @@ Turns alarming event json into an alarming episode:
 ## TR Logging Extensions ([Example Project](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/java-TR-Logging-Project-example)) 
 1. Register the application in the Software Module Registry
     - Pre-requisite: sp-applicationUniqueId : Asset Insight Unique ID.
-    - More info : [Software Module Registration](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/TR-SoftwareModuleRegistry-entries)
+    - More info : [Software Module Registration](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/TR-SoftwareModuleRegistry-entries)
 2. Include necessary internal TR Enterprise Logging and third-party libraries in the application build path
 3. Application logging configuration: set up TR Enterprise Logging Kafka  appender (e.g. EnterpriseKafkaLog4jAppender) and JSON event layout (e.g. Log4jJsonEventLayout)
 4. Add the necessary JVM parameters to the application’s startup or put required the properties in application code. 
