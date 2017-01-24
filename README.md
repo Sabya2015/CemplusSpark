@@ -71,18 +71,16 @@ It does not have to be a manual process. However, the dashboard allows you to ta
 
 
 #### *How to check Alarms after sending event from TR Logging Extensions*
-1) Go to [CAM dashboard](https://compass.thomsonreuters.com/monitor/alarms/)
-2) Click on the Show Filters img at top left corner
-3) Click on Default tab and clear all the filters for default
-4) Click on Application tab and type in your application name and enter.
-Hover on + symbol of SSDF and click on the event type(critical in this case)
-5) Will get the application and count of events based on level.
-Click on the aplication 
-6) GIves further details about the perticular event with details .
+1. Go to [CAM dashboard](https://compass.thomsonreuters.com/monitor/alarms/)
+2. Click on the Show Filters img at top left corner
+3. Click on Default tab and clear all the filters for default
+4. Click on Application tab and type in your application name and enter.
+      - Hover on + symbol of SSDF and click on the event type(critical in this case)
+5. Will get the application and count of events based on level.
+      - Click on the aplication 
+6. GIves further details about the perticular event with details .
 
 Refer this [link](https://thehub.thomsonreuters.com/docs/DOC-851597#jive_content_id_Testing) for more details.
-
-
 
 
 
