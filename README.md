@@ -5,16 +5,14 @@
 CAM dashboard alarms from TR Logging Schema compatible events.
 Alarming events: "sp-isAlarm": true,
 Turns alarming event json into an alarming episode:
-Image 1
 
 ## How does it work?
-Image 2
 - Application sends TR Logging Schema based Alarming Event.
 - Alarming events: "sp-isAlarm": true -> translates event to alarms
 - Alarm should be available in TRAMS ELK .
-- Compass Event Collector [details](k=close)
-- To implement TR- Logging refer [TR-Logging Project ](g-Project)
-- For CAM details refer [TR-Alarm Management](ogModel)
+- Compass Event Collector [details](https://thehub.thomsonreuters.com/docs/DOC-851597)
+- To implement TR- Logging refer [TR-Logging Project ](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/TR-Logging-Project)
+- For CAM details refer [TR-Alarm Management](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/TR-Logging-Project/blob/master/TR-Alarm-Management-Service.md)
 
 ## *TR Logging Extensions ([Example Project](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/java-TR-Logging-Project-example)) 
 1. Register the application in the Software Module Registry
@@ -30,8 +28,8 @@ Image 2
 
 #### Include internal TR Enterprise Logging and third-party libraries in the application build 
 
-### *For Dependencies (Gradle Format),Application Logging Configuration and SM Registry properties specified as VM argument</br>
-use this [link](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)*
+### *For Dependencies (Gradle Format),Application Logging Configuration and SM Registry properties specified as VM argument*</br>
+Refer this [link](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
 
 
 ### Example - the [resulting alarm](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
