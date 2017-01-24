@@ -14,7 +14,7 @@ Turns alarming event json into an alarming episode:
 - To implement TR- Logging refer [TR-Logging Project ](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/TR-Logging-Project)
 - For CAM details refer [TR-Alarm Management](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/TR-Logging-Project/blob/master/TR-Alarm-Management-Service.md)
 
-## *TR Logging Extensions ([Example Project](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/java-TR-Logging-Project-example)) 
+## TR Logging Extensions ([Example Project](https://git.sami.int.thomsonreuters.com/TR-Enterprise-Logging/java-TR-Logging-Project-example)) 
 1. Register the application in the Software Module Registry
     * Pre-requisite: sp-applicationUniqueId – Asset Insight Unique ID
     * More info : [Software Module Registration](ter/README.md)
@@ -28,25 +28,25 @@ Turns alarming event json into an alarming episode:
 
 #### Include internal TR Enterprise Logging and third-party libraries in the application build 
 
-### *For Dependencies (Gradle Format),Application Logging Configuration and SM Registry properties specified as VM argument*</br>
+#### *For Dependencies (Gradle Format),Application Logging Configuration and SM Registry properties specified as VM argument*</br>
 Refer this [link](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
 
 
-### Example - the [resulting alarm](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
+#### Example of the [resulting alarm](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
 
 
 
-Alarm correlation: * For grouping alarms to episodes. *
+Alarm correlation: For grouping alarms to episodes. 
 - Group related alarms together: alarming episodes
 - Alarm Correlation Signature:
 
-#### correlation_signature 
+#### Correlation_signature 
 Correlation id which identifies an episode as a unique entity
 For example please refer this [document](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx).
 
-## Troubleshooting with Postman and Using Postman to verify CAM alarming event [details](get from compass team)
+#### Troubleshooting with Postman and Using Postman to verify CAM alarming event [details](get from compass team)
 
-### *Clearing alarms*
+#### *Clearing alarms*
 
 - You can auto-clear alarms via application logging
 - You can manually clear alarms from Dashboard
