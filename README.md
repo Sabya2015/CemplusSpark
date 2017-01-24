@@ -25,9 +25,6 @@ Turns alarming event json into an alarming episode:
 6. Log events will show up in Kibana dashboard, Alarm events will show up in CAM.[CAM Dashboard]
 
 
-
-#### Include internal TR Enterprise Logging and third-party libraries in the application build 
-
 #### For Dependencies (Gradle Format),Application Logging Configuration and SM Registry properties specified as VM argument refer this [link](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
 
 #### Example of the resulting alarm refer this [link](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx)
@@ -39,12 +36,12 @@ Turns alarming event json into an alarming episode:
 - Alarm Correlation Signature:
 
 #### Correlation_signature 
-Correlation id which identifies an episode as a unique entity
+Correlation id which identifies an episode as a unique entity.
 For example please refer this [document](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx).
 
 #### Troubleshooting with Postman and Using Postman to verify CAM alarming event [details](get from compass team)
 
-#### *Clearing alarms*
+### Clearing alarms
 
 - You can auto-clear alarms via application logging
 - You can manually clear alarms from Dashboard
@@ -66,7 +63,7 @@ It does not have to be a manual process. However, the dashboard allows you to ta
 
 
 
-#### *How to check Alarms after sending event from TR Logging Extensions*
+### How to check Alarms after sending event from TR Logging Extensions
 1. Go to [CAM dashboard](https://compass.thomsonreuters.com/monitor/alarms/)
 2. Click on the Show Filters img at top left corner
 3. Click on Default tab and clear all the filters for default
