@@ -39,8 +39,9 @@ Turns alarming event json into an alarming episode:
 Correlation id which identifies an episode as a unique entity.
 For example please refer this [document](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx).
 
-#### Troubleshooting with Postman and Using Postman to verify CAM alarming event 
-HOW TO INSTALL IT:</br>
+#### Troubleshooting with Postman and Using Postman to verify CAM alarming event
+###### How to install it
+
 1. Point your browser https://chrome.google.com/webstore/search/postman?_category=apps
 2. Click  "ADD TO CHROME"
 3. Go to Settings/Extensions
@@ -51,7 +52,7 @@ HOW TO INSTALL IT:</br>
 You will have a flying spaceman icon on your desktop and taskbar</br>
 
 
-HOW TO USE IT TO VALIDATE TRLog JSON Object</br>
+###### How to use it to validate TRLog JSON Object
 1. Select POST and type in the (Development) URL for API http://compass-alarm-dev-01.emea1.cis.trcloud:3001/alarm_api/v2/events
 2. Add a Header in the Headers section
 ```
