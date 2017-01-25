@@ -39,7 +39,60 @@ Turns alarming event json into an alarming episode:
 Correlation id which identifies an episode as a unique entity.
 For example please refer this [document](https://thehub.thomsonreuters.com/servlet/JiveServlet/downloadBody/1850624-102-23-4883388/Logging_Schema_Based_Alarms_for_ECP-v10%20%282%29.pptx).
 
-#### Troubleshooting with Postman and Using Postman to verify CAM alarming event [details](get from compass team)
+#### Troubleshooting with Postman and Using Postman to verify CAM alarming event 
+HOW TO INSTALL IT:
+1. Point your browser https://chrome.google.com/webstore/search/postman?_category=apps
+2. Click  "ADD TO CHROME"
+3. Go to Settings/Extensions
+4. Locate Postman and click Details
+5. Click Create shortcuts  
+
+You will have a flying spaceman icon on your desktop and taskbar
+
+
+HOW TO USE IT TO VALIDATE TRLog JSON Object
+1. Select POST and type in the (Development) URL for API http://compass-alarm-dev-01.emea1.cis.trcloud:3001/alarm_api/v2/events
+2. Add a Header in the Headers section
+```
+Key : Content-Type 
+Value: application/json
+```
+3. Select raw in the Body section
+4. Paste json object into the box 
+```
+{  
+ "sp-isAlarm": true,
+  "sp-applicationUniqueID": "203998",
+  "sp-eventSourceUUID": "30044842-21c9-11e6-b67b-9e71128cae77",
+  "sp-threadName": "http-bio-8080-exec-3",
+  "sp-eventType": "trmr",
+  "sp-timestamp": "2017-01-24T14:40:30.477Z",                                  
+  "sp-eventSourceVersion": "3.2",
+  "sp-eventGroupID": "eventID-1-3-2-4",
+  "sp-emailContactList": "ct-sdp-dev@thomson.com",
+  "sp-userID": "tlr-243",
+  "sp-eventSchemaVersion": 3,
+  "sp-softwareModuleName": "SabyaHelloWorldTRLoggingTest",
+  "sp-message": "Sabya-HelloWorldTest",
+  "sp-functionalDomain": "ct-sdp",
+  "sp-eventContext": {
+    "sp-environmentClass": "development",
+    "sp-eventSourceHostname": "c123abc.int.thomsonreuters.com",
+    "sp-buildingName": "GB-DTC",
+    "sp-hostingModuleID": "H12345",
+    "sp-buildingID": "B00312",
+    "sp-hostingModuleName": "Eagan-DTC",
+    "testAttribute": "http://tr.com/wlnnext",
+    "sp-environmentLabel": "demo"
+  },
+  "sp-eventSeverity": "warning"                                
+}
+```
+5.	Click Send to generate warning alarm
+6.	Change    "sp-eventSeverity": "ok"
+7.	Click Send to clear the alarm
+8.	Check if the alarm is created  on this link http://compass-alarm-dev-01.emea1.cis.trcloud:3000
+
 
 ### Clearing alarms
 
