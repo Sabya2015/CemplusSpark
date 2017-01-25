@@ -55,13 +55,13 @@ You will have a flying spaceman icon on your desktop and taskbar</br>
 ###### How to use it to validate TRLog JSON Object
 1. Select POST and type in the (Development) URL for API </br> 
  http://compass-alarm-dev-01.emea1.cis.trcloud:3001/alarm_api/v2/events
-2. Add a Header in the Headers section
+2. Add a Header in the Headers section</br>
     ```
     Key : Content-Type 
     Value: application/json
     ```
 3. Select raw in the Body section
-4. Paste json object into the box 
+4. Paste json object into the box </br>
     ```
     {  
      "sp-isAlarm": true,
