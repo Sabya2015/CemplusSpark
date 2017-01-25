@@ -45,7 +45,8 @@ HOW TO INSTALL IT:</br>
 2. Click  "ADD TO CHROME"
 3. Go to Settings/Extensions
 4. Locate Postman and click Details
-5. Click Create shortcuts  
+5. Click Create shortcuts
+  
 
 You will have a flying spaceman icon on your desktop and taskbar</br>
 
